@@ -1,0 +1,13 @@
+.mySwiper .swiperpagination {
+    bottom: 20px !important;  /* Adjust the position of dots */
+    z-index: 10;  /* Ensure they appear above the images */
+}
+
+.mySwiper .swiperPaginationBullet {
+    background: rgba(255, 255, 255, 0.5);  /* Set bullet color */
+    opacity: 1;  /* Ensure bullets are visible */
+}
+
+.mySwiper .swiperPaginationBulletActive {
+    background: white;  /* Active bullet color */
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",        // Start from root
+    "paths": {
+      "@/*": ["src/*"]     // Alias @ → src
+    },
+    "jsx": "react-jsx"     // Optional but recommended for React
+  },
+  "include": ["src"]
+}
