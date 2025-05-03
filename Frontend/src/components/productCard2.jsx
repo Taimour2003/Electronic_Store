@@ -103,9 +103,9 @@ const ProductCard2 = ({
         <h2 className="font-bold text-lg text-gray-800 line-clamp-2 h-14">{name}</h2>
 
         <div className="mt-2 flex items-baseline gap-2">
-          <p className="text-xl font-bold text-gray-900">₹{price.toLocaleString()}</p>
+          <p className="text-xl font-bold text-gray-900">Rs. {price.toLocaleString()}</p>
           {originalPrice && originalPrice > price && (
-            <p className="text-sm text-gray-500 line-through">₹{originalPrice.toLocaleString()}</p>
+            <p className="text-sm text-gray-500 line-through">Rs. {originalPrice.toLocaleString()}</p>
           )}
           {discount > 0 && <p className="text-sm font-medium text-green-600">{discount}% off</p>}
         </div>

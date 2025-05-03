@@ -84,7 +84,7 @@ const AddToCart = () => {
                   >
                     <div className="flex-1">
                       <h2 className="text-lg font-semibold text-gray-800">{item.name}</h2>
-                      <p className="text-gray-500 mt-1">Price: ₹{item.price.toLocaleString()}</p>
+                      <p className="text-gray-500 mt-1">Price: Rs. {item.price.toLocaleString()}</p>
                     </div>
 
                     <div className="flex items-center bg-gray-50 rounded-full p-1">
@@ -121,7 +121,7 @@ const AddToCart = () => {
                         animate={{ scale: 1 }}
                         className="font-semibold text-gray-800"
                       >
-                        ₹{(item.price * item.quantity).toLocaleString()}
+                        Rs. {(item.price * item.quantity).toLocaleString()}
                       </motion.p>
                       <motion.button
                         whileHover={{ scale: 1.05, color: "#ef4444" }}
@@ -152,7 +152,7 @@ const AddToCart = () => {
                   animate={{ scale: 1 }}
                   className="text-2xl font-bold text-rose-600"
                 >
-                  ₹{getTotalPrice().toLocaleString()}
+                  Rs. {getTotalPrice().toLocaleString()}
                 </motion.p>
               </div>
 
